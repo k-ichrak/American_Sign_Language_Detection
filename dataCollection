@@ -4,7 +4,6 @@ import math
 import time
 import os
 from cvzone.HandTrackingModule import HandDetector
-# Define a custom HandDetector class without drawing landmarks and connections
 class MyHandDetector(HandDetector):
     def findHands(self, img, draw=True, flipType=False):
         hands, _ = super().findHands(img, draw=False, flipType=flipType)  # Call the superclass method with draw=False
