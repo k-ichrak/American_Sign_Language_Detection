@@ -14,7 +14,7 @@ imgSize = 300
 offset = 20 
 counter = 0 
 # Create folders for each letter of the alphabet
-folders = {letter: f'Data2/{letter}' for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'}
+folders = {letter: f'Data/{letter}' for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'}
 current_folder = 'A'  # Default folder
 while True:
     success, img = cap.read()
